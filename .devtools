@@ -1,0 +1,4 @@
+function dev() {
+	docker run --rm -it -v `pwd`:/wd -w /wd sphoid/devtools $*
+}
+
